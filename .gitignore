@@ -1,0 +1,10 @@
+dewiktionary-20111210-pages-articles.xml.bz2
+.classpath
+.project
+.settings
+.checkstyle
+.fbprefs
+*.patch
+target
+work
+reports
