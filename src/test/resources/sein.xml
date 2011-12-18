@@ -1,0 +1,367 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.5/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.5/ http://www.mediawiki.org/xml/export-0.5.xsd" version="0.5" xml:lang="de">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <base>http://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+    <generator>MediaWiki 1.18wmf1</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="case-sensitive">Wiktionary</namespace>
+      <namespace key="5" case="case-sensitive">Wiktionary Diskussion</namespace>
+      <namespace key="6" case="case-sensitive">Datei</namespace>
+      <namespace key="7" case="case-sensitive">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="case-sensitive">Vorlage</namespace>
+      <namespace key="11" case="case-sensitive">Vorlage Diskussion</namespace>
+      <namespace key="12" case="case-sensitive">Hilfe</namespace>
+      <namespace key="13" case="case-sensitive">Hilfe Diskussion</namespace>
+      <namespace key="14" case="case-sensitive">Kategorie</namespace>
+      <namespace key="15" case="case-sensitive">Kategorie Diskussion</namespace>
+      <namespace key="102" case="case-sensitive">Verzeichnis</namespace>
+      <namespace key="103" case="case-sensitive">Verzeichnis Diskussion</namespace>
+      <namespace key="104" case="case-sensitive">Thesaurus</namespace>
+      <namespace key="105" case="case-sensitive">Thesaurus Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>sein</title>
+    <id>892</id>
+    <revision>
+      <id>2031880</id>
+      <timestamp>2011-11-28T23:24:19Z</timestamp>
+      <contributor>
+        <username>MalafayaBot</username>
+        <id>46516</id>
+      </contributor>
+      <minor />
+      <comment>r2.7.2) (Bot: Ergänze: [[ast:sein]], [[tl:sein]]</comment>
+      <text xml:space="preserve">{{Wort der Woche|6|2007}}
+== sein ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Hilfsverb|Deutsch}} ===
+{| style=&quot;float:right; border:1px solid #AAAAAA; margin-left:0.5em; margin-bottom:0.5em;&quot; rules=&quot;all&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot;
+! width=&quot;80&quot; bgcolor=&quot;#F4F4F4&quot; | [[Hilfe:Tempus|Zeitform]]
+! bgcolor=&quot;#FFFFE0&quot; colspan=&quot;2&quot; | Wortform
+|-
+| bgcolor=&quot;#F4F4F4&quot; rowspan=&quot;5&quot; | [[Hilfe:Präsens|'''Präsens''']]
+| [[bin]] || ({{Audio|De-bin.ogg|bin}})
+|-
+| [[bist]] || ({{Audio|De-bist.ogg|bist}})
+|-
+| [[ist]] || ({{Audio|De-ist.ogg|ist}})
+|-
+| [[sind]] || ({{Audio|De-sind.ogg|sind}})
+|-
+| [[seid]] || ({{Audio|De-seid.ogg|seid}})
+|-
+| bgcolor=&quot;#F4F4F4&quot; rowspan=5| [[Hilfe:Imperfekt|'''Imperfekt''']]
+| [[war]] || ({{Audio|De-war.ogg|war}})
+|-
+| [[warst]] || 
+|-
+| [[war]] || 
+|-
+| [[waren]] || 
+|-
+| [[wart]] || 
+|-
+|bgcolor=&quot;#F4F4F4&quot; | [[Hilfe:Partizip|'''Partizip I''']]
+| [[seiend]] || ({{Audio|De-seiend.ogg|seiend}})
+|-
+| bgcolor=&quot;#F4F4F4&quot; | [[Hilfe:Partizip|'''Partizip II''']]
+| [[gewesen]] || ({{Audio|De-gewesen.ogg|gewesen}})
+|-
+| bgcolor=&quot;#F4F4F4&quot; | [[Hilfe:Konjunktiv|'''Konjunktiv II''']]
+| [[wäre]] ||
+|-
+| bgcolor=&quot;#F4F4F4&quot; rowspan=&quot;3&quot; | [[Hilfe:Imperativ|'''Imperativ''']]
+| [[sei]] || ({{Audio|De-sei.ogg|sei}})
+|-
+| [[seid]] || ({{Audio|De-seid.ogg|seid}})
+|-
+| [[seien]] ||
+|-
+| bgcolor=&quot;#F4F4F4&quot; colspan=&quot;3&quot; | ''siehe auch:'' [[sein (Konjugation)]]
+|}
+
+{{Anmerkung}}
+:Alle Verbindungen mit ''sein'' schreibt man nach neuer Rechtschreibung getrennt (da sein, weg sein, zusammen sein ...).
+
+{{Silbentrennung}}
+:sein, {{Prät.}} war, {{Part.}} ge·we·sen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈzaɪ̯n}} (bin: {{Lautschrift|bɪn}}, bist: {{Lautschrift|ˈbɪst}}, ist: {{Lautschrift|ɪst}}, sind: {{Lautschrift|ˈzɪnt}}, seid: {{Lautschrift|zaɪ̯t}}), {{Prät.}} {{Lautschrift|ˈvaːɐ̯}}, {{Part.}} {{Lautschrift|ɡəˈveːzən}}
+:{{Hörbeispiele}} {{Audio|De-sein.ogg|sein}}
+
+{{Anmerkung}}
+:Das Zeitwort ''sein'' wird als Hilfszeitwort zur Bildung zusammengesetzter Zeiten bestimmter Verben verwendet.
+
+{{Bedeutungen}}
+:[1] die Kopula, die dem Subjekt ein logisches Prädikat zuordnet
+:[2] ''zusammen mit einer Ortsangabe'': sich am genannten Ort [[befinden]]
+:[3] [[existieren]]
+:[4] ''in der Wendung'' dran sein: beim Spielen an der Reihe ''sein'' &lt;!-- Besser unter Lemma dran ? --&gt;
+:[5] [[Hilfszeitwort]] zur Bildung zusammengesetzter Zeiten bestimmter Verben
+
+{{Herkunft}}
+:[[Hilfe:ahd.|ahd.]], [[Hilfe:mhd.|mhd.]] ''[[sīn]]''
+
+{{Synonyme}}
+:[2] sich [[befinden]], [[anwesend]] sein
+:[3] [[bestehen]], [[leben]]
+
+{{Beispiele}}
+:[1] Er ''ist'' 30 Jahre alt. Sie ''ist'' schön. Das ''ist'' ein Problem, weil er ein Schürzenjäger ''ist''. Der Neue ''ist'' jetzt Präsident. Der Präsident ''ist'' schwarz.
+:[2] Wir ''waren'' in Paris.
+:[3] Gott ''war'' und ''ist''.
+:[3] Solange der Opa noch ''ist'', können wir das Haus nicht verkaufen.
+:[5] Ich ''bin'' gelaufen. Er ''ist'' der dritte König Schottlands ''gewesen''.
+
+{{Redewendungen}}
+:[4] [[tick, du bist]]! 
+:[3] [[Sein oder nicht sein, das ist hier die Frage]] 
+:''[[zu tun sein]]'' (etwas ist zu tun = etwas muss getan werden)
+
+{{Charakteristische Wortkombinationen}}
+:[4] [[kriegen]], [[ticken]]
+
+{{Abgeleitete Begriffe}}
+:[[Dasein]], [[Sein]], [[Seinsweise]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{eu}}: [?] {{Ü|eu|izan}}, {{Ü|eu|egon}}
+*{{bg}}: [?] {{Üxx|bg|săm|съм}}
+*{{zh}}: [1] {{Üxx|zh|shì|是}}
+*{{en}}: [1, 2] {{Ü|en|be}}; [3]{{Ü|en|exist}} ; [4] be {{Ü|en|it}}
+*{{eo}}: [1] {{Ü|eo|esti}}; [2] {{Ü|eo|troviĝi}}, [3] {{Ü|eo|ekzisti}}
+*{{et}}: [1] {{Ü|et|olema}}
+*{{fi}}: [1] {{Ü|fi|olla}}
+*{{fr}}: [1–3, 5] {{Ü|fr|être}}, [5] {{Ü|fr|avoir}}
+*{{el}}: [1] {{Üxx|el||είμαι}}
+*{{hi}}: [1, 2] {{Üxx|hi||होना}}
+*{{it}}: [1–3] {{Ü|it|essere}}, [2] {{Ü|it|trovarsi}}, [3] {{Ü|it|esistere}}, [4] {{Ü|it|toccare}} (in dem Sinne: jetzt bin ich an der Reihe = addesso tocca a me)
+*{{ja}}: [1] {{Üxx|ja|da|だ}}, {{Üxx|ja|desu|です}}, {{Üxx|ja|dearu|である}} [2] {{Üxx|ja|ある, aru|有る}}, {{Üxx|ja|いる, iru|居る}}; [3] {{Üxx|ja|そんざいする, sonzai suru|存在する}}
+*{{ca}}: [1–3] {{Ü|ca|ésser}}, {{Ü|ca|ser}}, {{Ü|ca|estar}}
+*{{ko}}: [1] {{Üxx|ko|ida|이다}}; ''verneint:'' {{Üxx|ko|anida|아니다}}
+*{{la}}: [1–3] {{Ü|la|esse}}
+{{Ü-Abstand}}
+*{{lb}}: [1–3] {{Ü|lb|sinn}}
+*{{lv}}: [1] {{Ü|lv|būt}}
+*{{nds}}: [1] {{Ü|nds|ween}}, [2] {{Ü|nds|sien}}, [3] {{Ü|nds|wesen}}
+*{{nl}}: [1–3] {{Ü|nl|zijn}}
+*{{no}}: [1–3] {{Ü|no|være}}
+*{{nds}}: [1–4] {{Ü|nds|wesen}}, {{Ü|nds|ween}}, {{Ü|nds|sien}}
+*{{oc}}: [1] {{Ü|oc|èsser}}, {{Ü|oc|èstre}} 
+*{{fa}}: [1–2] {{Ü|fa|بودن}}
+*{{pl}}: [1–4] {{Ü|pl|być}}
+*{{pt}}: [?] {{Ü|pt|ser}}, {{Ü|pt|estar}}
+*{{ro}}: [1–4] {{Ü|ro|a fi}}
+*{{ru}}: [(1), 2] {{Üxx|ru|byt|быть}}; [3] {{Üxx|ru|suschtschestwowát|существовать}}
+*{{sv}}: [?] {{Ü|sv|vara}}
+*{{sr}}: [?] {{Üxx|sr|[[biti]]|бити}}
+*{{sk}}: [?] {{Ü|sk|byť}}
+*{{es}}: [?] {{Ü|es|estar}}, {{Ü|es|ser}}
+*{{cs}}: [1–4] {{Ü|cs|být}}
+*{{tr}}: [1] {{Ü|tr|olmak}}
+*{{hu}}: [?] {{Ü|hu|van|lenni}}
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+*Mitteldeutsch:
+**{{ksh}}: {{Ü|ksh|sinn}} (sinn, bės, ės, sinn, sėtt, sinn)
+**Rheinfränkisch:
+***{{pfl}}:{{Lautschrift|zɑɪ}}, {{Lautschrift|zɑ̃ɪ̃}} {{Lautschrift|zɒɪ}}, {{Lautschrift|zɒ̃ɪ̃}}, {{Lautschrift|zɪn}}
+***Hessisch: ''soi (soi, birst, irs, soi, seid, soi)'' 
+*Holzbüttgener Platt: [1, 2] ''sin''
+|
+*Oberdeutsch:
+**{{als}}:si, {{Part.}} g’si
+***Schwäbisch:
+****Ostschwäbisch: séi/soi, bin/ben, bisch, isch, sinn/senn/sind/send, séid(s)/soid(s), g’wesa(r)/g'wesn/g’wäa, wär 
+**{{bar}}: sei/sa (bin, bist, is, han, hats/heits, wàr, gwen)
+
+}}
+
+{{Referenzen}}
+:[1–3] {{Wikipedia|Sein (Sprachlogik)}}
+:[1] {{Wikipedia|Kopula}}
+:[1–3] {{Ref-VerbixDE|sein}}
+:[1–3] {{Ref-Verbformen|sein}}
+:[1] {{Ref-Grimm|sein|...}}
+:[1] {{Ref-DWDS|sein}}
+:[1] {{Ref-Canoo|sein}}
+:[1] {{Ref-UniLeipzig|sein}}
+:[1] {{Ref-FreeDictionary|sein}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{----}}
+
+=== {{Wortart|Possessivpronomen|Deutsch}}, 3. Person Singular {{m}}, {{n}}===
+{{Pronomina-Tabelle|
+ Wer oder was? (Einzahl m)=sein
+|Wer oder was? (Einzahl f)=seine
+|Wer oder was? (Einzahl n)=sein
+|Wer oder was? (Mehrzahl)=seine
+|Wessen? (Einzahl m)=seines
+|Wessen? (Einzahl f)=seiner
+|Wessen? (Einzahl n)=seines
+|Wessen? (Mehrzahl)=seiner
+|Wem? (Einzahl m)=seinem
+|Wem? (Einzahl f)=seiner
+|Wem? (Einzahl n)=seinem
+|Wem? (Mehrzahl)=seinen
+|Wen? (Einzahl m)=seinen
+|Wen? (Einzahl f)=seine
+|Wen? (Einzahl n)=sein
+|Wen? (Mehrzahl)=seine
+}}
+
+{{Silbentrennung}} 
+:sein, sei·ne
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈzaɪ̯n}}
+
+{{Bedeutungen}}
+:[1] ''eine Form des Possessivpronomens „sein, seine, sein“:'' Drückt das Eigentum, den Besitz einer Person an einer Sache oder Person aus, beziehungsweise umgekehrt die Zugehörigkeit
+ 
+
+{{Herkunft}}
+:[1] germanisch ''*[[sīna-]]'' „sein“, [[Hilfe:ahd.|ahd.]], [[Hilfe:mhd.|mhd.]] ''[[sīn]]''; der indogermanische Pronominalstamm ''*[[sei-]]'' ist um ein Suffix ''*-no-'' erweitert
+
+{{Synonyme}}
+:[1] ''umgangssprachlich:'' [[von]] [[er|ihm]]
+
+{{Beispiele}}
+:[1] „Wie schön das Kind doch mit ''seinen'' Bauklötzen spielt!“
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|his}} {{m}}; {{Ü|en|her}} {{f}}; {{Ü|en|its}} {{n}}
+*{{eo}}: [1] {{Ü|eo|sia}} (eigen); {{Ü|eo|lia}} {{m}}; {{Ü|eo|ŝia}} {{f}}; {{Ü|eo|ĝia}} {{n}}; Plural: {{Ü|eo|siaj}} (eigene); {{Ü|eo|liaj}} {{m}}; {{Ü|eo|ŝiaj}} {{f}}; {{Ü|eo|ĝiaj}} {{n}}
+*{{it}}: [1] {{Ü|it|suo}} {{m}}; {{Ü|it|sua}} {{f}}
+*{{ja}}: [1] {{Üxx|ja|かれの, kare no|彼の}}
+*{{ca}}: [1] {{Ü|ca|el seu}} {{m}}
+{{Ü-Abstand}}
+*{{nl}}: [1] {{Ü|nl|zijn}}
+*{{pl}}: [1] {{Ü|pl|jego}} {{m}} {{n}}; {{Ü|pl|jej}} {{f}}
+*{{pt}}: [1] {{Ü|pt|seu}}, {{Ü|pt|dele}}
+*{{sv}}: [1] {{Ü|sv|hans}} {{m}}; {{Ü|sv|hennes}} {{f}}; {{Ü|sv|dess}} {{n}}
+*{{es}}: [1] {{Ü|es|su}}
+*{{hu}}: [1] {{Ü|hu|-ja}}, {{Ü|hu|-je}} als Suffix (Nachsilbe) zum Substantiv, auf das sich die Besitzanzeige bezieht
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+*{{nds}}: {{Ü|nds|sien}}
+|
+*{{ksh}}: {{Ü|ksh|sing}}, {{Ü|ksh|singe}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|sein}}
+:[1] {{Ref-Grimm|sein|...}}
+:[1] {{Ref-DWDS|sein}}
+:[1] {{Ref-Canoo|sein}}
+:[1] {{Ref-UniLeipzig|sein}}
+:[1] {{Ref-FreeDictionary|sein}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{2x----}}
+
+== sein ({{Sprache|Französisch}}) ==
+=== {{Wortart|Substantiv|Französisch}}, {{m}} ===
+{{Französisch Substantiv Übersicht
+|Singular=le sein
+|Plural=les seins
+}}
+{{Silbentrennung}}
+:sein, {{Pl.}} seins
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|sɛ̃}}
+:{{Hörbeispiele}} {{Audio|Fr-sein.ogg}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] ''veraltet oder literarisch:'' [[Brust]] als vorderer Oberkörper
+:[2] befindliches äußeres, weibliches [[Geschlechtsmerkmal]], [[Milchdrüse]]
+
+{{Synonyme}}
+:[1] [[torse]]
+:[2] ''umgangssprachlich:'' [[nichon]], [[nibard]]
+
+{{Oberbegriffe}}
+:[1] [[partie]] du [[corps]] (''[[Körperteil]]'')
+:[2] [[organe]]
+
+{{Beispiele}}
+:[1] Il pressa son enfant contre son ''sein.''
+::Er drückte sein Kind an seine ''Brust.''
+:[2] L'enfant tète le ''sein'' de sa mère.
+::Das Kind saugt an der ''Brust'' seiner Mutter.
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{de}}: [1, 2] [[Brust]]
+{{Ü-Abstand}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1, 2] {{Ref-CNRTL|sein}}
+:[1, 2] {{Ref-PonsFr|sein}}
+
+{{Ähnlichkeiten}}
+:[[Bein]], [[ceint]], [[cinq]], [[ein]], [[fein]], [[kein]], [[Lein]], [[Nein]], [[Pein]], [[Rein]], [[rein]], [[sain]], [[saint]], [[Seen]], [[Seil]], [[Seim]], [[seing]], [[seit]], [[sin]], [[Stein]], [[Tein]], [[Wein]], [[Zein]]
+
+[[ar:sein]]
+[[ast:sein]]
+[[br:sein]]
+[[cs:sein]]
+[[da:sein]]
+[[el:sein]]
+[[en:sein]]
+[[es:sein]]
+[[et:sein]]
+[[fa:sein]]
+[[fi:sein]]
+[[fo:sein]]
+[[fr:sein]]
+[[gl:sein]]
+[[hu:sein]]
+[[io:sein]]
+[[it:sein]]
+[[ja:sein]]
+[[ka:sein]]
+[[ko:sein]]
+[[ku:sein]]
+[[la:sein]]
+[[lb:sein]]
+[[li:sein]]
+[[lo:sein]]
+[[lt:sein]]
+[[lv:sein]]
+[[mg:sein]]
+[[nl:sein]]
+[[nn:sein]]
+[[no:sein]]
+[[oc:sein]]
+[[pl:sein]]
+[[pt:sein]]
+[[ru:sein]]
+[[sv:sein]]
+[[tl:sein]]
+[[tr:sein]]
+[[uk:sein]]
+[[vi:sein]]
+[[zh:sein]]</text>
+    </revision>
+  </page>
+</mediawiki>

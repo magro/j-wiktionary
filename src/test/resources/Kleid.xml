@@ -1,0 +1,161 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.5/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.5/ http://www.mediawiki.org/xml/export-0.5.xsd" version="0.5" xml:lang="de">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <base>http://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+    <generator>MediaWiki 1.18wmf1</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="case-sensitive">Wiktionary</namespace>
+      <namespace key="5" case="case-sensitive">Wiktionary Diskussion</namespace>
+      <namespace key="6" case="case-sensitive">Datei</namespace>
+      <namespace key="7" case="case-sensitive">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="case-sensitive">Vorlage</namespace>
+      <namespace key="11" case="case-sensitive">Vorlage Diskussion</namespace>
+      <namespace key="12" case="case-sensitive">Hilfe</namespace>
+      <namespace key="13" case="case-sensitive">Hilfe Diskussion</namespace>
+      <namespace key="14" case="case-sensitive">Kategorie</namespace>
+      <namespace key="15" case="case-sensitive">Kategorie Diskussion</namespace>
+      <namespace key="102" case="case-sensitive">Verzeichnis</namespace>
+      <namespace key="103" case="case-sensitive">Verzeichnis Diskussion</namespace>
+      <namespace key="104" case="case-sensitive">Thesaurus</namespace>
+      <namespace key="105" case="case-sensitive">Thesaurus Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kleid</title>
+    <id>1558</id>
+    <revision>
+      <id>2044459</id>
+      <timestamp>2011-12-04T10:07:58Z</timestamp>
+      <contributor>
+        <username>CruxBot</username>
+        <id>36415</id>
+      </contributor>
+      <minor />
+      <comment>r2.6) (Bot: Ergänze: [[eu:Kleid]]</comment>
+      <text xml:space="preserve">== Kleid ({{Sprache|Deutsch}}) ==
+{{erweitern|Bedeutung [3] zerlegen und genauer erklären, Beispiele|Deutsch}}
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+{{Deutsch Substantiv Übersicht
+|Bild=Long evening dress.jpg|200px|1|Ein schwarzes ''Kleid''
+|Nominativ Singular=das Kleid
+|Nominativ Plural=die Kleider
+|Genitiv Singular=des Kleides
+|Genitiv Plural=der Kleider
+|Dativ Singular=dem Kleid
+|Dativ Plural=den Kleidern
+|Akkusativ Singular=das Kleid
+|Akkusativ Plural=die Kleider
+}}
+
+{{Silbentrennung}}
+:Kleid, {{Pl.}} Klei·der
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|kl̥aɪ̯t}}, {{Pl.}} {{Lautschrift|ˈkl̥aɪ̯dɐ}}
+:{{Hörbeispiele}} {{Audio|De-Kleid.ogg|Kleid}}, {{Audio|De-at-Kleid.ogg|Kleid (Österr.)}},  {{Pl.}} {{Audio|De-Kleider.ogg|Kleider}}
+
+{{Bedeutungen}}
+:[1] einteiliges Oberbekleidungsstück für weibliche Personen
+:[2] menschliche Bekleidung
+:[3] ''[[Biologie]]:'' Gefieder, Fell, Schuppen, Laub
+:[4] ''veraltet:'' Uniform
+
+{{Herkunft}}
+:seit dem 12. Jahrhundert bezeugt; mittelhochdeutsch: ''kleit''; mittelniederdeutsch: ''kled''; vergleiche mittelniederländisch: ''cleet'', altenglisch: ''clāþ'', altisländisch: ''klæði'', altschwedisch: ''klädhe'';alle mit der ursprünglichen Bedeutung [[Tuch]]; vermutlich zu der indogermanische Wortwurzel: ''*glei-'' = [[kleben]], „[[schmierig]] [[sein]]“ gebildet, vergleiche [[Klei]]; denn nach dem alten Herstellungsverfahren des Tuchs genannt, „mit Klei gewalktem Stoff“ &lt;ref&gt;{{Lit-Duden: Herkunftswörterbuch|A=4}}, Seite 412.&lt;/ref&gt;&lt;ref&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}} Seite 494.&lt;/ref&gt;
+
+{{Synonyme}}
+:[1] [[Putz]], [[Tracht]]
+:[2] [[Anzug]], [[Aufzug]], [[Ausrüstung]], [[Ausstattung]], [[Dress]], [[Fetzen]], [[Gala]], [[Garderobe]], [[Gewand]], [[Habit]], [[Hülle]], [[Klamotten]], [[Kledage]], [[Kluft]], [[Kombination]], [[Konfektion]], [[Kostüm]], [[Livree]], [[Ornat]], [[Räuberzivil]], [[Robe]], [[Rock]], [[Schale]], [[Staat]], [[Tracht]], [[Zivil]]
+:[3] [[Panzer]]
+:[4] [[Montur]], [[Panzer]], [[Uniform]], [[Stoff]]
+
+{{Unterbegriffe}}
+:[1] [[Abendkleid]], [[Alltagskleid]], [[Ausgehkleid]], [[Ballettkleid]], [[Ballkleid]], [[Barockkleid]], [[Baumwollkleid]], [[Biedermeierkleid]], [[Brautkleid]], [[Chemisierkleid]], [[Chiffonkleid]], [[Cocktailkleid]], [[Damenkleid]], [[Dinnerkleid]], [[Empirekleid]], [[Etuikleid]], [[Festkleid]], [[Flatterkleid]], [[Flügelkleid]], [[Frauenkleid]], [[Galakleid]], [[Gesellschaftskleid]], [[Glitzerkleid]], [[Hängerkleid]], [[Hauskleid]], [[Hochzeitskleid]], [[Hosenkleid]], [[Jackenkleid]], [[Kaminkleid]], [[Kinderkleid]], [[Kittelkleid]], [[Latexkleid]], [[Lederkleid]], [[Leinenkleid]], [[Minikleid]], [[Modellkleid]], [[Netzkleid]], [[Oberkleid]], [[Paillettenkleid]], [[Papierkleid]], [[Pelzkleid]], [[Perlenkleid]], [[Plisseekleid]], [[Prachtkleid]], [[Prinzessinnenkleid]], [[Reformkleid]], [[Rokokokleid]], [[Rüschenkleid]], [[Sackkleid]], [[Samtkleid]], [[Satinkleid]], [[Schlauchkleid]], [[Schlichtkleid]], [[Schürzenkleid]], [[Seidenkleid]], [[Shiftkleid]], [[Silberkleid]], [[Sommerkleid]], [[Spitzenkleid]], [[Strandkleid]], [[Stretchkleid]], [[Strickkleid]], [[Taftkleid]], [[Trachtenkleid]], [[Trägerkleid]], [[Traumkleid]], [[Tüllkleid]], [[Überkleid]], [[Umstandskleid]], [[Unterkleid]], [[Winterkleid]], [[Wollkleid]]
+:[2] [[Amtskleid]], [[Ehrenkleid]], [[Jagdkleid]], [[Kommunionkleid]], [[Konfirmationskleid]], [[Krönungskleid]], [[Narrenkleid]], [[Ordenskleid]], [[Schwesternkleid]], [[Tenniskleid]], [[Totenkleid]], [[Trauerkleid]], [[Sonntagskleid]], [[Taufkleid]]
+
+{{Beispiele}}
+:[1] Um bei der Oskarverleihung Aufmerksamkeit zu erregen, müssen die Schauspielerinnen sehr aufwändig geschneiderte ''Kleider'' tragen.
+
+{{Sprichwörter}}
+:[[Kleider machen Leute]]
+
+{{Abgeleitete Begriffe}} 
+:''metaphorisch'', (Körperteil) [[Beinkleid]], [[Fußkleid]]; (Gebäude) [[Holzkleid]], [[Reichstagskleid]], [[Wandkleid]]; (Gegenstand) [[Blechkleid]], [[Metallkleid]], [[Schanzkleid]]; [[Unschuldskleid]]
+:[1] [[Kleiderablage]], [[Kleiderbügel]], [[Kleiderbürste]], [[Kleiderhaken]], [[Kleiderkammer]], [[Kleidermotte]]
+:[2] [[kleiden]], [[Kleiderordnung]], [[Kleidung]]
+:[3] [[Blätterkleid]], [[Blütenkleid]], [[Frühlingskleid]], [[Laubkleid]], [[Nadelkleid]], [[Pflanzenkleid]], [[Chitinkleid]], [[Federkleid]], [[Fellkleid]], [[Haarkleid]], [[Pelzkleid]], [[Schuppenkleid]], [[Stachelkleid]], [[Tarnkleid]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{ar}}: [1] {{Ü|ar|ثوب}}
+*{{hy}}: [1] {{Üxx|hy|hagust|հագուստ}}
+*{{en}}: [1] {{Ü|en|dress}}
+*{{fr}}: [1] {{Ü|fr|robe}}
+*{{it}}: [1] {{Ü|it|vestito}} {{m}}, {{Ü|it|abito}} {{m}}; [2] {{Ü|it|abbigliamento}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|wanpîsu|ワンピース}}; [2] {{Üxx|ja|いしょう、ishô|衣装}}
+*{{ca}}: [1] {{Ü|ca|vestit}} {{m}}, {{Ü|ca|vestit de dona}} {{m}}
+*{{oc}}: [1] {{Ü|oc|rauba}}
+*{{pl}}: [1] {{Ü|pl|suknia}}
+{{Ü-Abstand}}
+*{{pt}}: [1] {{Ü|pt|vestido}}
+*{{ro}}: [1] {{Ü|ro|haine}}
+*{{ru}}: [1] {{Ü|ru|платье}} {{n}}, [4] {{Üxx|ru|kostjum|костюм}} {{m}}
+*{{sv}}: [1] {{Ü|sv|klänning}}; [2] {{Ü|sv|kläder}} ''Pl.''; [3] ''Vogel:'' {{Ü|sv|fjäderdräkt}}, {{Ü|sv|-skrud}}, ''Pelztier:'' {{Ü|sv|päls}}; ''Baum:'' {{Ü|sv|-skrud}}; [4] {{Ü|sv|uniform}}
+*{{sl}}: [1] {{Ü|sl|obleka}}
+*{{es}}: [1] {{Ü|es|vestido}}
+*{{cs}}: [1, 2] {{Ü|cs|šaty}} {{mPl.}}
+*{{hu}}: [1, 2] {{Ü|hu|ruha}}
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+*Schwäbisch: [[Häs]]
+*Bairisch: [[Gwand]]
+|&lt;!-- Links/Rechts --&gt;
+*{{nds}}: 
+*Ostmitteldeutsch: [[Gleed]], [[Kleed]]
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Kleid}}
+:[1] {{Ref-Grimm|Kleid|GK06894}}
+:[1] {{Ref-DWDS|Kleid}}
+:[1] {{Ref-Canoo|Kleid}}
+:[1] {{Ref-UniLeipzig|Kleid}}
+:[1] {{Ref-FreeDictionary|Kleid}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Kleie]], [[Leid]], [[leid]], [[klein]]
+
+[[br:Kleid]]
+[[en:Kleid]]
+[[eu:Kleid]]
+[[fi:Kleid]]
+[[fr:Kleid]]
+[[hu:Kleid]]
+[[id:Kleid]]
+[[io:Kleid]]
+[[it:Kleid]]
+[[ja:Kleid]]
+[[mg:Kleid]]
+[[nl:Kleid]]
+[[no:Kleid]]
+[[pl:Kleid]]
+[[pt:Kleid]]
+[[ru:Kleid]]
+[[zh:Kleid]]</text>
+    </revision>
+  </page>
+</mediawiki>

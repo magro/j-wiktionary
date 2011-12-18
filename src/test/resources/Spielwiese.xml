@@ -1,0 +1,110 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.5/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.5/ http://www.mediawiki.org/xml/export-0.5.xsd" version="0.5" xml:lang="de">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <base>http://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+    <generator>MediaWiki 1.18wmf1</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="case-sensitive">Wiktionary</namespace>
+      <namespace key="5" case="case-sensitive">Wiktionary Diskussion</namespace>
+      <namespace key="6" case="case-sensitive">Datei</namespace>
+      <namespace key="7" case="case-sensitive">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="case-sensitive">Vorlage</namespace>
+      <namespace key="11" case="case-sensitive">Vorlage Diskussion</namespace>
+      <namespace key="12" case="case-sensitive">Hilfe</namespace>
+      <namespace key="13" case="case-sensitive">Hilfe Diskussion</namespace>
+      <namespace key="14" case="case-sensitive">Kategorie</namespace>
+      <namespace key="15" case="case-sensitive">Kategorie Diskussion</namespace>
+      <namespace key="102" case="case-sensitive">Verzeichnis</namespace>
+      <namespace key="103" case="case-sensitive">Verzeichnis Diskussion</namespace>
+      <namespace key="104" case="case-sensitive">Thesaurus</namespace>
+      <namespace key="105" case="case-sensitive">Thesaurus Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Spielwiese</title>
+    <id>3997</id>
+    <revision>
+      <id>1759213</id>
+      <timestamp>2011-04-05T14:33:44Z</timestamp>
+      <contributor>
+        <username>BaisemainBot</username>
+        <id>24700</id>
+      </contributor>
+      <minor />
+      <comment>ersetze Vorlage &quot;Deutsch Substantiv f schwach&quot; durch &quot;Deutsch Substantiv Übersicht&quot;</comment>
+      <text xml:space="preserve">&lt;div style=&quot;margin:0em; padding:5px; border:solid 2px #FF0040; background-color:#FFFFFF&quot;&gt;
+'''Dies ist nicht die Seite zum Ausprobieren des Wikiwörterbuches. Jene Seite befindet sich [[Wiktionary:Spielwiese|hier]].'''
+&lt;/div&gt;
+== Spielwiese ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Spielwiese
+|Nominativ Plural=die Spielwiesen
+|Genitiv Singular=der Spielwiese
+|Genitiv Plural=der Spielwiesen
+|Dativ Singular=der Spielwiese
+|Dativ Plural=den Spielwiesen
+|Akkusativ Singular=die Spielwiese
+|Akkusativ Plural=die Spielwiesen
+}}
+
+{{Silbentrennung}} 
+:Spiel·wie·se, {{Pl.}} Spiel·wie·sen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʃpiːlˌviːzə}}, {{Pl.}} {{Lautschrift|ˈʃpiːlˌviːzn̩}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] eine [[frei]]e [[Grasfläche]], meist vom Haus her einsehbar, auf der kleine [[Kind]]er gefahrlos [[spielen]], [[herumtollen]] können
+:[2] ''[[abwertend]], übertragen:'' ein [[Thema]], ein [[Feld]] von häufig ergebnislosen [[politisch]]en, [[ideologisch]]en, [[rhetorisch]]en [[Auseinandersetzung]]en meist ohne Folgen
+
+{{Herkunft}}
+:Zusammensetzung ([[Determinativkompositum]]) aus ''[[Spiel]]'' (oder dem Stamm des Verbs ''[[spielen]]'') und ''Substantiv'' [[Wiese]]
+    
+{{Sinnverwandte Wörter}}
+:[1] [[Spielplatz]], [[Tummelplatz]], [[Sportplatz]], [[Fußballplatz]], [[Bolzplatz]], [[Spielstraße]]
+
+{{Oberbegriffe}}
+:[1] [[Wiese]]
+
+{{Beispiele}}
+:[1] Geht bitte auf die ''Spielwiese'' spielen!
+:[2] Die Bildungspolitik ist zu einer ''Spielwiese'' für Politiker geworden, die jeden Realitätsbezug verloren haben.
+:[2] „&quot;Der öffentliche Dienst eignet sich nicht als ''Spielwiese'' für Machtpolitik&quot;, sagte Heesen.“&lt;ref&gt;[http://www.welt.de/print-welt/article363342/Schily_warnt_vor_Kleinstaaterei.html „ Schily warnt vor &quot;Kleinstaaterei&quot;“, von DW, 11. Januar 2005]&lt;/ref&gt;
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|playground}}, {{Ü|en|playing field}}
+{{Ü-Abstand}}
+*{{fr}}: [1] {{Ü|fr|parc à jeux}} {{m}}
+*{{es}}: [1] {{Ü|es|campo de juegos}} {{m}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|Spielwiese}}
+:[ ] {{Ref-Canoo|Spielwiese}}
+:[1, 2] {{Ref-UniLeipzig|Spielwiese}}
+:[1] {{Ref-FreeDictionary|Spielwiese}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Spieltrieb]], [[Spielweise]]
+
+[[en:Spielwiese]]
+[[fr:Spielwiese]]
+[[ru:Spielwiese]]
+[[zh:Spielwiese]]</text>
+    </revision>
+  </page>
+</mediawiki>

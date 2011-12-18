@@ -16,6 +16,7 @@ import java.util.Set;
 
 import org.mediawiki.importer.DumpWriter;
 import org.mediawiki.importer.LatestFilter;
+import org.mediawiki.importer.NamespaceFilter;
 import org.mediawiki.importer.Page;
 import org.mediawiki.importer.Revision;
 import org.mediawiki.importer.Siteinfo;
@@ -59,6 +60,7 @@ public class WiktionaryLoader {
         private final Set<String> nounTitles;
 
         private String pageTitle;
+        private Page page;
 
         private PageTitleNounCollector(final MediaWikiParser parser) {
             this.parser = parser;
@@ -76,6 +78,7 @@ public class WiktionaryLoader {
         @Override
         public void writeStartPage(final Page page) throws IOException {
             this.pageTitle = page.Title.Text;
+            this.page = page;
         }
 
         @Override
@@ -87,18 +90,34 @@ public class WiktionaryLoader {
             final ParsedPage pp = parser.parse(rev.Text);
             if (pp == null) {
                 LOGGER.warn("Could not parse page with title {}", pageTitle);
-            } else if (pp.getSections() != null && !pp.getSections().isEmpty()) {
-                final Section section = pp.getSection(0);
-                final List<Content> contentList = section.getContentList();
-                if (contentList.size() > 1 && contentList.get(1) instanceof Section) {
-                    final Section subSection = (Section) contentList.get(1);
-                    final Option<Boolean> isNounOption = getTemplate(subSection.getTemplates(), "Wortart").map(
-                            getFirstParameter).map(isNoun);
-                    if (isNounOption.isSome() && isNounOption.some().booleanValue()) {
-                        nounTitles.add(pageTitle);
+            } else if (pp.getSections() != null) {
+                for (final Section section : pp.getSections()) {
+                    final Option<Template> partOfSpeechTemplate = getPartOfSpeechTemplate(section);
+                    if (partOfSpeechTemplate.isSome()) {
+                        if (partOfSpeechTemplate.map(getFirstParameter).map(isNoun).some().booleanValue()) {
+                            nounTitles.add(pageTitle);
+                        }
+                        return;
+                    }
+                }
+                LOGGER.info("No part-of-speech found for {}", pageTitle);
+            }
+        }
+
+        private Option<Template> getPartOfSpeechTemplate(final Section section) {
+            final List<Content> contentList = section.getContentList();
+            if (contentList != null) {
+                for (final Content content : contentList) {
+                    if (content instanceof Section) {
+                        final Section subSection = (Section) content;
+                        final Option<Template> result = getTemplate(subSection.getTemplates(), "Wortart");
+                        if (result.isSome()) {
+                            return result;
+                        }
                     }
                 }
             }
+            return none();
         }
 
         private Option<Template> getTemplate(final List<Template> templates, final String name) {
@@ -155,7 +174,8 @@ public class WiktionaryLoader {
 
         final FileInputStream fis = new FileInputStream(wiktionaryDump);
         final PageTitleNounCollector pageTitleNounCollector = new PageTitleNounCollector(parser);
-        final XmlDumpReader dumpReader = new XmlDumpReader(fis, new LatestFilter(pageTitleNounCollector));
+        final XmlDumpReader dumpReader = new XmlDumpReader(fis, new NamespaceFilter(new LatestFilter(
+                pageTitleNounCollector), "NS_MAIN"));
         try {
             dumpReader.readDump();
             nounTitles = pageTitleNounCollector.getNounTitles();
