@@ -8,7 +8,8 @@ Right now the only feature is that you can check if a (german) word is a noun (b
 3. Unpack the dump (`bzip2 -d dewiktionary-latest-pages-articles.xml.bz2`)
 4. Create a new WiktionaryLoader instance, passing the unpacked file:
 
-    final WiktionaryLoader loader = new WiktionaryLoader(new File("dewiktionary-latest-pages-articles.xml"));
-    # Check if a word is a noun:
-    System.out.println("Is noun" + loader.isNoun("Januar"));
-
+<pre><code>final WiktionaryLoader loader = new WiktionaryLoader(
+    new File("dewiktionary-latest-pages-articles.xml"));
+// Check if a word is a noun:
+System.out.println("Is noun" + loader.isNoun("Januar"));
+</code></pre>
