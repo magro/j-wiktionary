@@ -100,8 +100,8 @@ public class WiktionaryLoader {
                         return;
                     }
                 }
-                if (rev.Text.contains("Substantiv")) {
-                    LOGGER.info("No part-of-speech found for {} (which indeed contains 'Substantiv')", pageTitle);
+                if (LOGGER.isDebugEnabled() && rev.Text.contains("Substantiv")) {
+                    LOGGER.debug("No part-of-speech found for {} (which indeed contains 'Substantiv')", pageTitle);
                 }
             }
         }
