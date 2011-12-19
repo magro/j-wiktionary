@@ -3,13 +3,12 @@
  */
 package de.hashcode.jwiktionary;
 
-import static fj.data.Option.none;
-import static fj.data.Option.some;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -33,7 +32,6 @@ import de.tudarmstadt.ukp.wikipedia.parser.Template;
 import de.tudarmstadt.ukp.wikipedia.parser.mediawiki.MediaWikiParser;
 import de.tudarmstadt.ukp.wikipedia.parser.mediawiki.MediaWikiParserFactory;
 import fj.F;
-import fj.data.Option;
 
 /**
  * Loads a provided wiktionary dump in xml format (e.g. an unpacked <a
@@ -92,41 +90,54 @@ public class WiktionaryLoader {
                 LOGGER.warn("Could not parse page with title {}", pageTitle);
             } else if (pp.getSections() != null) {
                 for (final Section section : pp.getSections()) {
-                    final Option<Template> partOfSpeechTemplate = getPartOfSpeechTemplate(section);
-                    if (partOfSpeechTemplate.isSome()) {
-                        if (partOfSpeechTemplate.map(getFirstParameter).map(isNoun).some().booleanValue()) {
-                            nounTitles.add(pageTitle);
+                    final List<Template> partOfSpeechTemplates = getPartOfSpeechTemplates(section);
+                    if (!partOfSpeechTemplates.isEmpty()) {
+                        for (final Template template : partOfSpeechTemplates) {
+                            if (isNoun.f(getFirstParameter.f(template))) {
+                                nounTitles.add(pageTitle);
+                            }
                         }
                         return;
                     }
                 }
-                LOGGER.info("No part-of-speech found for {}", pageTitle);
+                if (rev.Text.contains("Substantiv")) {
+                    LOGGER.info("No part-of-speech found for {} (which indeed contains 'Substantiv')", pageTitle);
+                }
             }
         }
 
-        private Option<Template> getPartOfSpeechTemplate(final Section section) {
+        private List<Template> getPartOfSpeechTemplates(final Section section) {
+            if (section.getTitleElement() != null) {
+                final List<Template> templates = getTemplate(section.getTitleElement().getTemplates(), "Wortart");
+                if (!templates.isEmpty()) {
+                    return templates;
+                }
+            }
+
             final List<Content> contentList = section.getContentList();
             if (contentList != null) {
                 for (final Content content : contentList) {
-                    if (content instanceof Section) {
-                        final Section subSection = (Section) content;
-                        final Option<Template> result = getTemplate(subSection.getTemplates(), "Wortart");
-                        if (result.isSome()) {
-                            return result;
-                        }
+                    final List<Template> result = getTemplate(content.getTemplates(), "Wortart");
+                    if (!result.isEmpty()) {
+                        return result;
                     }
                 }
             }
-            return none();
+
+            return Collections.emptyList();
         }
 
-        private Option<Template> getTemplate(final List<Template> templates, final String name) {
-            for (final Template template : templates) {
-                if (name.equals(template.getName())) {
-                    return some(template);
+        private List<Template> getTemplate(final List<Template> templates, final String name) {
+            if (templates != null) {
+                final List<Template> result = new ArrayList<Template>();
+                for (final Template template : templates) {
+                    if (name.equals(template.getName())) {
+                        result.add(template);
+                    }
                 }
+                return result;
             }
-            return none();
+            return Collections.emptyList();
         }
 
         @Override

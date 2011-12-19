@@ -1,0 +1,109 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.5/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.5/ http://www.mediawiki.org/xml/export-0.5.xsd" version="0.5" xml:lang="de">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <base>http://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+    <generator>MediaWiki 1.18wmf1</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2" case="case-sensitive">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="case-sensitive" />
+      <namespace key="1" case="case-sensitive">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="case-sensitive">Wiktionary</namespace>
+      <namespace key="5" case="case-sensitive">Wiktionary Diskussion</namespace>
+      <namespace key="6" case="case-sensitive">Datei</namespace>
+      <namespace key="7" case="case-sensitive">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="case-sensitive">Vorlage</namespace>
+      <namespace key="11" case="case-sensitive">Vorlage Diskussion</namespace>
+      <namespace key="12" case="case-sensitive">Hilfe</namespace>
+      <namespace key="13" case="case-sensitive">Hilfe Diskussion</namespace>
+      <namespace key="14" case="case-sensitive">Kategorie</namespace>
+      <namespace key="15" case="case-sensitive">Kategorie Diskussion</namespace>
+      <namespace key="102" case="case-sensitive">Verzeichnis</namespace>
+      <namespace key="103" case="case-sensitive">Verzeichnis Diskussion</namespace>
+      <namespace key="104" case="case-sensitive">Thesaurus</namespace>
+      <namespace key="105" case="case-sensitive">Thesaurus Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Nomen proprium</title>
+    <id>105168</id>
+    <revision>
+      <id>2010217</id>
+      <timestamp>2011-11-14T18:02:57Z</timestamp>
+      <contributor>
+        <username>BetterkBot</username>
+        <id>49296</id>
+      </contributor>
+      <minor />
+      <comment>IPA: Hochkommata ersetzt</comment>
+      <text xml:space="preserve">=== {{Wortart|Wortverbindung|Deutsch}}, {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Nomen proprium
+|Nominativ Plural=die Nomina propria
+|Genitiv Singular=des Nomen proprium
+|Genitiv Plural=der Nomina propria
+|Dativ Singular=dem Nomen proprium
+|Dativ Plural=den Nomina propria
+|Akkusativ Singular=das Nomen proprium
+|Akkusativ Plural=die Nomina propria
+}}
+
+{{Silbentrennung}}
+:No·men pro·pri·um, {{Pl.}} No·mi·na pro·pria
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈnoːmən ˈpʀoːpʀiʊm}}, {{Pl.}} {{Lautschrift|ˈnoːmina ˈpʀoːpʀia}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] [[Linguistik]]: lateinische Bezeichnung für [[Eigenname]]
+
+{{Synonyme}}
+:[1] [[Eigenname]]
+
+{{Gegenwörter}}
+:[1] [[Appellativum]], [[Gattungsname]], [[Nomen appellativum]]
+
+{{Oberbegriffe}}
+:[1] [[Nomen]], [[Wortschatz]], [[Linguistik]], [[Sprachwissenschaft]], [[Sprache]]
+
+{{Beispiele}}
+:[1] &quot;Inge&quot;, &quot;Peter&quot;, &quot;Schmidt&quot;, &quot;Amerika&quot;, &quot;China&quot;, &quot;Rhein&quot;, &quot;Vogelsberg&quot; sind einige Beispiele für  ''Nomina propria''.
+:[1] „Innerhalb der Gruppe der Substantive wird nochmals unterschieden zwischen Eigennamen (''nomina propria'') und Gattungsnamen oder besser Gattungsbezeichnungen (nomina appellativa).“&lt;ref&gt; Wilfried Seibicke: ''Die Personennamen im Deutschen.'' de Gruyter, Berlin/ New York 1982, S. 7. ISBN 3-11-007984-4 &lt;/ref&gt;
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{ar}}: [] {{Ü|ar|}}
+*{{zh}}: [] {{Ü|zh|}}
+*{{en}}: [] {{Ü|en|}}
+{{Ü-Abstand}}
+*{{fr}}: [] {{Ü|fr|}}
+*{{ru}}: [] {{Ü|ru|}}
+*{{es}}: [] {{Ü|es|}}
+{{Ü-rechts}} &lt;!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Editierfensters --&gt;
+
+{{Dialektausdrücke (Deutsch)|&lt;!-- Bitte nur deutschsprachige Dialekte! Ggf. spezifizieren (Ost-/Ober-/Süd-/usw.)! --&gt;
+*Alemannisch: 
+*Bairisch: 
+|&lt;!-- Links/Rechts --&gt;
+*Niedersächsisch: 
+*Ostmitteldeutsch: 
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Eigenname}}
+:[1] {{Wikipedia|Proprium}}
+:[1] Hadumod Bußmann: ''Lexikon der Sprachwissenschaft.'' 3., aktualisierte und erweiterte Auflage. Kröner, Stuttgart 2002. Stichwort: „Nomen Proprium“. ISBN 3-520-45203-0.
+:[1] Helmut Glück (Hrsg.), unter Mitarbeit von Friederike Schmöe: ''Metzler Lexikon Sprache.'' Dritte, neubearbeitete Auflage, Stichwort: „Nomen proprium“. Metzler, Stuttgart/ Weimar 2005. ISBN 978-3-476-02056-7.
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}</text>
+    </revision>
+  </page>
+</mediawiki>
