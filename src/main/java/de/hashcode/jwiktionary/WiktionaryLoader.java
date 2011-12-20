@@ -12,6 +12,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.regex.Pattern;
 
 import org.mediawiki.importer.DumpWriter;
 import org.mediawiki.importer.LatestFilter;
@@ -59,6 +60,8 @@ public class WiktionaryLoader {
 
         private String pageTitle;
         private Page page;
+        private static final Pattern SINGULAR_PLURAL_PARAM_PATTERN = Pattern
+                .compile(" (Singular|Plural)=(der|die|das|des|dem|den) ");
 
         private PageTitleNounCollector(final MediaWikiParser parser) {
             this.parser = parser;
@@ -89,12 +92,22 @@ public class WiktionaryLoader {
             if (pp == null) {
                 LOGGER.warn("Could not parse page with title {}", pageTitle);
             } else if (pp.getSections() != null) {
+
+                final Set<String> declinations = getDeclinations(pp.getTemplates());
+                if (!declinations.isEmpty()) {
+                    nounTitles.addAll(declinations);
+                }
+
                 for (final Section section : pp.getSections()) {
+
                     final List<Template> partOfSpeechTemplates = getPartOfSpeechTemplates(section);
                     if (!partOfSpeechTemplates.isEmpty()) {
                         for (final Template template : partOfSpeechTemplates) {
                             if (isNoun.f(getFirstParameter.f(template))) {
                                 nounTitles.add(pageTitle);
+                                if (declinations.isEmpty() && LOGGER.isDebugEnabled()) {
+                                    LOGGER.debug("Found no declinations for page {}", pageTitle);
+                                }
                             }
                         }
                         return;
@@ -104,6 +117,29 @@ public class WiktionaryLoader {
                     LOGGER.debug("No part-of-speech found for {} (which indeed contains 'Substantiv')", pageTitle);
                 }
             }
+        }
+
+        private Set<String> getDeclinations(final List<Template> allTemplates) {
+            final List<Template> declinationTemplates = getTemplate(allTemplates, "Deutsch_Substantiv_Übersicht");
+            if (!declinationTemplates.isEmpty()) {
+                if (declinationTemplates.size() > 1 && LOGGER.isDebugEnabled()) {
+                    LOGGER.debug("Found more than 1 'Deutsch_Substantiv_Übersicht' template for {}", pageTitle);
+                }
+                final Set<String> declinations = new HashSet<String>();
+                final Template template = declinationTemplates.get(0);
+                for (final String param : template.getParameters()) {
+                    final String[] parts = SINGULAR_PLURAL_PARAM_PATTERN.split(param, 0);
+                    if (parts.length != 2 && LOGGER.isDebugEnabled()) {
+                        LOGGER.debug(
+                                "Have unexpected declination template/pattern for page '{}': {}\nExpected pattern: {}",
+                                new Object[] { pageTitle, param, SINGULAR_PLURAL_PARAM_PATTERN.pattern() });
+                    } else {
+                        declinations.add(parts[1].trim());
+                    }
+                }
+                return declinations;
+            }
+            return Collections.emptySet();
         }
 
         private List<Template> getPartOfSpeechTemplates(final Section section) {
